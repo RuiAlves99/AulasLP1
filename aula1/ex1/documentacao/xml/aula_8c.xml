@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="aula_8c" kind="file" language="C++">
+    <compoundname>aula.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>aula.c</label>
+        <link refid="aula_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="aula_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+<para>Programa principal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aula.c" line="18" column="5" bodyfile="aula.c" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>aula </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Rui Alves (<ulink url="mailto:a15505@alunos.ipca.pt">a15505@alunos.ipca.pt</ulink>) </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+<simplesect kind="date"><para>2020-10-27</para>
+</simplesect>
+<simplesect kind="copyright"><para>Copyright (c) 2020 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="11"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="aula_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="aula_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%d\n&quot;</highlight><highlight class="normal">,<sp/>x);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="aula.c"/>
+  </compounddef>
+</doxygen>
