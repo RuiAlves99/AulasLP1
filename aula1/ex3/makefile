@@ -9,4 +9,4 @@ $@.o: $@.c
 	$(CC) -c $<
 
 clean:
-	rm -f *.exe *.o
+	rm -f *.out *.o
